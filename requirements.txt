@@ -1,7 +1,7 @@
-ultralytics
-opencv-python
-torch
-numpy
-matplotlib
 streamlit
-streamlit_webrtc
+streamlit-webrtc
+ultralytics>=8.2.100  # avoids older incompatible versions
+opencv-python-headless>=4.7.0.72
+torch>=2.5.0  # PyTorch 2.5.0+ supports Python 3.13
+numpy
+Pillow
